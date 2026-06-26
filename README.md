@@ -2,7 +2,7 @@
 
 
 
-This is a Python application that connects to Alpaca's paper trading API to retrieve historical stock data, stream real-time bid/ask quotes, and display everything in a desktop UI.
+This is a Python application that connects to Alpaca's paper trading API to retrieve historical stock data, stream real-time bid/ask quotes, and display everything in a desktop UI. 
 
 
 
@@ -71,11 +71,19 @@ ALPACA\_SECRET\_KEY=GNakZ4LWfgHApmcVsTdzPKwVaw3rWnjcuH8Kh5UxoVR7
 
 \- For historical charts, run `python -c "from chart import plot\_historical\_bars; plot\_historical\_bars('AAPL', days=30)"`
 
-
-
-\## Notes
-
 \- This project uses Alpaca's paper trading environment only — no real money is used
 
 \- Real-time quotes only update during active US market hours (9:30 AM–4:00 PM ET, weekdays)
+
+
+## AI Assistance Disclosure
+This project was completed with the assistance of Claude as an AI pair-programming tool, which was okayed by Tobias. AI was used for:
+- Guidance on project structure and module organization
+- Debugging environment and setup issues (Python PATH, PowerShell, Git)
+- Understanding Alpaca API concepts (historical data requests, WebSocket streaming)
+- Understanding Tkinter threading patterns for real-time UI updates
+
+All code was reviewed and understood before use. The overall design, decisions, and implementation are my own.
+\## Notes
+
 
